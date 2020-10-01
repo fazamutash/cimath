@@ -1,0 +1,7 @@
+steps:
+  - command: "npm run test"
+    label: ":microscope: (test)"
+    timeout_in_minutes: 15
+    retry:
+      automatic:
+        limit: 5
