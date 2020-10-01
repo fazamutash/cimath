@@ -1,4 +1,4 @@
 steps:
-  - command: "npm run test"
+  - command: "./scripts/test.sh"
     label: ":microscope: (test)"
     timeout_in_minutes: 15
